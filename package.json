@@ -1,0 +1,29 @@
+{
+  "name": "football-graphql-api",
+  "version": "1.0.0",
+  "description": "football-graphql-api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizfroes/football-graphql-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizfroes/football-graphql-api/issues"
+  },
+  "homepage": "https://github.com/luizfroes/football-graphql-api#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "axios": "^0.25.0",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
